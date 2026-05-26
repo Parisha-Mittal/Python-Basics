@@ -2,7 +2,7 @@ n = 10
 print(n.bit_length())
 
 n = 10
-print(n.bit_count())
+print("Bit count:",n.bit_count())
 
 n = 1024
 b = n.to_bytes(2, byteorder='big')

@@ -119,14 +119,14 @@ s = "hello world"
 table = str.maketrans("aeiou", "12345")
 print(s.translate(table))
 
-s = "hello-world-python"
+s = "hello-happy-world"
 print(s.partition("-"))
 
-s = "hello-world-python"
+s = "hello-happy-world"
 print(s.rpartition("-"))
 
-s = "unhappy"
-print(s.removeprefix("un"))
+s = "indistinct"
+print(s.removeprefix("in"))
 
-s = "filename.txt"
+s = "python.txt"
 print(s.removesuffix(".txt"))
