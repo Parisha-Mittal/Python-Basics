@@ -11,7 +11,7 @@ print("Concatenation:", tup1 + tup2)
 
 print("Repetition:", tup1 * 3)
 
-print("Indexing:", tup[2])
+print("Indexing:", tup[4])
 
 print("Slicing:", tup[1:4])
 
